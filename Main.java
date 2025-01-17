@@ -18,6 +18,15 @@ public class Main {
 
 		System.out.println("---");
 
+		// Standard for loop
+		for (int i = 0; i < countries.length; i++) {
+			System.out.println("Array Index: " + i);
+			System.out.println("Country: " + countries[i]);
+			System.out.println("Population: " + populations[i]);
+		}
+		
+		System.out.println("---");
+
 		// Enhanced for-each loop
 		for (String country : countries) {
 			System.out.println(country);
@@ -29,15 +38,6 @@ public class Main {
 			totalPop = totalPop + countryPop;
 		}
 		System.out.println("Total: " + totalPop);
-
-		System.out.println("---");
-
-		// Standard for loop
-		for (int i = 0; i < countries.length; i++) {
-			System.out.println("Array Index: " + i);
-			System.out.println("Country: " + countries[i]);
-			System.out.println("Population: " + populations[i]);
-		}
 
 		System.out.println("---");
 
