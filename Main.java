@@ -1,7 +1,7 @@
 public class Main {
 
-   public static void main(String []args) {
-      // One way to create Array
+	public static void main(String []args) {
+		// One way to create Array
 		String[] countries = { "🇺🇸 USA", "🇯🇵 Japan", "🇮🇳 India" };
 
 		// Another way to create Array
